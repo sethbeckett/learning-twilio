@@ -15,5 +15,3 @@ message = client.messages \
                     from_=my_twilio_num,
                     to=recipient_num
                 )
-
-print(message.sid)
